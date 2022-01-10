@@ -97,7 +97,7 @@ map <ScrollWheelUp> <C-Y>
 imap <ScrollWheelUp> <C-X><C-Y>
 map <ScrollWheelDown> <C-E>
 nnoremap <silent><Leader>vp :VimuxPromptCommand<CR>
-nnoremap <silent><Leader>f :FZFF :FZF ~<CR>
+nnoremap <silent><Leader>f :FZF<CR>
 nnoremap <silent><Leader>F :FZF ~<CR>
 nnoremap <silent><Leader>, :BLines<CR>
 autocmd TermOpen * startinsert
