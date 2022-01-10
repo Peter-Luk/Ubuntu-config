@@ -39,7 +39,7 @@ endif
 
 let g:python_highlight_all=1
 let g:indentLine_setColors=1
-let g:indentLine_char_list=['|']
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 let g:neoformat_python_autopep8 = {
         \ 'ex': 'autopep8',
         \ 'args': ['-s 4', '-E'],
