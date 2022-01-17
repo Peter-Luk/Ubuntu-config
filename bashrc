@@ -90,8 +90,6 @@ export LANG=en_HK.UTF-8
 if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
 	( tmux attach -t default || tmux new -s default ); exit
 fi
-export GHK="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"
-readonly GHK
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='nvim'
