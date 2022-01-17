@@ -17,8 +17,8 @@ CASE_SENSITIVE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 export UPDATE_OSH_DAYS=13
-# export GHK="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"
-
+export GHK="<github token>"
+readonly GHK
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
 
@@ -106,7 +106,7 @@ export ARCHFLAGS="-arch x86_64"
 # Set personal aliases, overriding those provided by oh-my-bash libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-bash
 # users are encouraged to define aliases within the OSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
+# For a full(list of active aliases, run `alias`.
 #
 # Example aliases
 # alias bashconfig="mate ~/.bashrc"
